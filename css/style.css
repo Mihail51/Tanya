@@ -6,3 +6,7 @@
     height: auto;
     margin: 0 auto;
 }
+.page_image img {
+    width: 100%;
+    height: auto;
+}
