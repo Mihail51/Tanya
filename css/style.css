@@ -21,4 +21,5 @@
     -o-transform: translate(-50%, -50%);
     opacity: 0.4;
     clip-path: ellipse(70% 80% at 50% 25%);
+    -webkit-clip-path: ellipse(70% 80% at 50% 25%);
 }
