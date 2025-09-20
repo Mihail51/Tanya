@@ -28,5 +28,9 @@
     .page_image img {
         width: auto;
         object-fit: fill;
+        margin-left: -25%;
+    }
+    .tanya {
+        top: 20%;
     }
 }
