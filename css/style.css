@@ -23,3 +23,9 @@
     clip-path: ellipse(70% 80% at 50% 25%);
     -webkit-clip-path: ellipse(70% 80% at 50% 25%);
 }
+
+@media (max-width: 576px) {
+    .page_image img {
+        object-fit: contain;
+    }
+}
