@@ -15,12 +15,45 @@
 
 <body class="page home__page">
     <div class="bg page_bg home__page_bg">
- <!--      <img class="tanya" width="478" height="648" src="images/design/tanya-3.png" alt="">  -->
+        <picture class="tanya-bg main-tanya-bg">
+            <!--1x: 478px; 2x: 956px; 3x: 1434px-->
+            <!-- note 1x: 255px; 2x: 510px; 3x: 765px-->
+            <!-- tablet 1x: 191px; 2x: 382px; 3x: 573px-->
+            <!-- mobile 1x: 143px; 2x: 286px; 3x: 429px-->
+            <!-- mini 1x: 80px; 2x: 160px; 3x: 240px-->
+            <source media="(max-width: 320px)" type="image/webp" srcset="images/design/tanya-mini.webp 1x, images/design/tanya-mini@2.webp 2x,
+                images/design/tanya-mini@3.webp 3x">
+            <source media="(max-width: 320px)" type="image/png"
+                srcset="images/design/tanya-mini.png 1x, images/design/tanya-mini@2.png 2x,
+                images/design/tanya-mini@3.png 3x">
+            <source media="(max-width: 576px)" type="image/webp"
+                srcset="images/design/tanya-mobile.webp 1x, images/design/tanya-mobile@2.webp 2x,
+                images/design/tanya-mobile@3.webp 3x">
+            <source media="(max-width: 576px)" type="image/png"
+                srcset="images/design/tanya-mobile.png 1x, images/design/tanya-mobile@2.png 2x,
+                images/design/tanya-mobile@3.png 3x">
+            <source media="(max-width: 768px)" type="image/webp"
+                srcset="images/design/tanya-mobile.webp 1x, images/design/tanya-mobile@2.webp 2x,
+                images/design/tanya-mobile@3.webp 3x">
+            <source media="(max-width: 768px)" type="image/png"
+                srcset="images/design/tanya-tablet.png 1x, images/design/tanya-tablet@2.png 2x,
+                images/design/tanya-tablet@3.png 3x">
+            <source media="(max-width: 1024px)" type="image/webp"
+                srcset="images/design/tanya-note.webp 1x, images/design/tanya-note@2.webp 2x,
+                images/design/tanya-note@3.webp 3x">
+            <source media="(max-width: 1024px)" type="image/png"
+                srcset="images/design/tanya-note.png 1x, images/design/tanya-note@2.png 2x,
+                images/design/tanya-note@3.png 3x">
+            <source type="image/webp"
+                srcset="images/design/tanya.webp 1x, images/design/tanya@2.webp 2x, images/design/tanya@3.webp 3x">
+            <img class="tanya" width="478" height="648" src="images/design/tanya.png" alt="">
+        </picture>
         <picture class="image page_image home__page_image">
             <!--1x: 1920px; 2x: 3840px; 3x: 5760px-->
             <!-- note 1x: 1024px; 2x: 2048px; 3x: 3072px-->
             <!-- tablet 1x: 768px; 2x: 1536px; 3x: 2304px-->
-            <!-- mobile 1x: 320px; 2x: 640px; 3x: 960px-->
+            <!-- mobile 1x: 576px; 2x: 1152px; 3x: 1728px-->
+            <!-- mini 1x: 320px; 2x: 640px; 3x: 960px-->
             <source media="(max-width: 320px)" type="image/webp"
                 srcset="images/design/main-bg-mini.webp 1x, images/design/main-bg-mini@2.webp 2x,
                 images/design/main-bg-mini@3.webp 3x">
@@ -50,7 +83,7 @@
                 images/design/main-bg-note@3.webp 3x">
             <source media="(max-width: 1024px)" type="image/jpg"
                 srcset="images/design/main-bg-note.jpg 1x, images/design/main-bg-note@2.jpg 2x,
-                images/design/main-bg-note@3.jpg3x">
+                images/design/main-bg-note@3.jpg 3x">
             <source type="image/webp"
                 srcset="images/design/main-bg.webp 1x, images/design/main-bg@2.webp 2x, images/design/main-bg@3.webp 3x">
             <img width="1920" height="1080" src="images/design/main-bg.jpg 1x"

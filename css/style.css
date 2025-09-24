@@ -6,9 +6,15 @@
     height: auto;
     margin: 0 auto;
 }
+.page_bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;right: 0;
+    z-index: -1;
+}
 .page_image img {
     width: 100%;
-    height: auto;
 }
 .tanya {
     position: fixed;
@@ -25,13 +31,13 @@
 }
 
 @media (max-width: 576px) {
-    .page_image img {
+ /*   .page_image img {
         width: auto;
         object-fit: fill;
         margin-left: -25%;
-    }
+    }  
     .tanya {
         top: 25%;
         left: 35%;
-    }
+    }  */
 }
